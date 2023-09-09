@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG Profile</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+        <div id="profile" class="overflow-hidden rounded-full w-40 h-40">
+            <img
+              src="assets/profile.jpeg"
+              class="w-full"
+              alt="Superfly The Tech Brhoe"
+              data-testid="slackDisplayImage"
+            ></img>
+          </div>
+          <h1 class="text-3xl font-bold" data-testid="slackUserName">
+            Superfly The Tech Brhoe
+          </h1>
+    </header>
+
+    <main>
+        
+        <section>
+          <div class="mb-4 text-lg">
+            <h4 class="text-sm">Day and time (UTC):</h4>
+            <p id="day" data-testid="currentDayOfTheWeek">
+              day
+            </p>
+            <p id="time" data-testid="currentUTCTime">
+              utcTime
+            </p>
+          </div>
+          <p data-testid="myTrack">Track: Frontend</p>
+        </section>
+        <section class="flex flex-col items-center py-2">
+          <a
+            href="https://github.com/Superfly101/hng-profile"
+            target="_blank"
+            data-testid="githubURL"
+          >
+            GitHub URL
+          </a>
+        </section>
+      </main>
+    <footer></footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
