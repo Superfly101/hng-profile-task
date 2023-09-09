@@ -12,6 +12,7 @@ main {
   flex-direction: column;
   text-align: center;
   font-family: "Manrope", sans-serif;
+  padding: 1rem 0;
 }
 
 section {
@@ -31,4 +32,9 @@ section {
 
 img {
   width: 100%;
+  transform: scale(1.2);
+}
+
+.date p {
+  font-weight: 600;
 }
